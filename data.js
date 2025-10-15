@@ -30,15 +30,15 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.033296486342296205,
-          "pitch": 0.24153789982361218,
+          "yaw": -6.069631908189876e-9,
+          "pitch": 0.1929789295343607,
           "rotation": 0,
           "target": "1-saln"
         },
         {
-          "yaw": 1.6726338346753984,
-          "pitch": 0.3392800950198076,
-          "rotation": 0.7853981633974483,
+          "yaw": 1.7206930271377505,
+          "pitch": 0.33983876947404923,
+          "rotation": 0,
           "target": "4-despacho"
         }
       ],
@@ -74,16 +74,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.859877487753711,
-          "pitch": 0.22982972658100387,
-          "rotation": 0,
-          "target": "0-entrada"
-        },
-        {
-          "yaw": -0.6075744652217772,
-          "pitch": 0.2548334406285875,
+          "yaw": -0.6163181582600217,
+          "pitch": 0.24503370975477523,
           "rotation": 0,
           "target": "2-dormitorio-principal"
+        },
+        {
+          "yaw": 2.852544943863025,
+          "pitch": 0.24018542229446993,
+          "rotation": 0,
+          "target": "0-entrada"
         }
       ],
       "infoHotspots": []
@@ -118,16 +118,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.1067954808245624,
-          "pitch": 0.3063454302921951,
-          "rotation": 1.5707963267948966,
-          "target": "3-bao-principal_1"
+          "yaw": 2.642863299974289,
+          "pitch": 0.18562133058492414,
+          "rotation": 7.0685834705770345,
+          "target": "1-saln"
         },
         {
-          "yaw": 2.656150872907946,
-          "pitch": 0.24999414085524307,
-          "rotation": 0.7853981633974483,
-          "target": "1-saln"
+          "yaw": 2.8859656096532857,
+          "pitch": 0.38779766063065324,
+          "rotation": 1.5707963267948966,
+          "target": "3-bao-principal_1"
         }
       ],
       "infoHotspots": []
@@ -160,7 +160,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.559442723498801,
+          "pitch": 0.3030818546324081,
+          "rotation": 0.7853981633974483,
+          "target": "1-saln"
+        },
+        {
+          "yaw": 2.0144035165873584,
+          "pitch": 0.3640405192125158,
+          "rotation": 4.71238898038469,
+          "target": "2-dormitorio-principal"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -193,9 +206,9 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.9541990576265142,
-          "pitch": 0.2655800332335545,
-          "rotation": 0,
+          "yaw": -1.1774328022801903,
+          "pitch": 0.22028067966908615,
+          "rotation": 0.7853981633974483,
           "target": "0-entrada"
         }
       ],
