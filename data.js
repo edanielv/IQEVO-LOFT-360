@@ -30,16 +30,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -6.069631908189876e-9,
-          "pitch": 0.1929789295343607,
+          "yaw": 0.03107812294532586,
+          "pitch": 0.22685497499595542,
           "rotation": 0,
           "target": "1-saln"
         },
         {
-          "yaw": 1.7206930271377505,
-          "pitch": 0.33983876947404923,
-          "rotation": 0,
-          "target": "4-despacho"
+          "yaw": 1.7348788738686487,
+          "pitch": 0.3715669422018131,
+          "rotation": 0.7853981633974483,
+          "target": "2-despacho"
         }
       ],
       "infoHotspots": []
@@ -74,110 +74,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.6163181582600217,
-          "pitch": 0.24503370975477523,
-          "rotation": 0,
-          "target": "2-dormitorio-principal"
-        },
-        {
-          "yaw": 2.852544943863025,
-          "pitch": 0.24018542229446993,
+          "yaw": 2.8658714681672013,
+          "pitch": 0.2478148902308437,
           "rotation": 0,
           "target": "0-entrada"
+        },
+        {
+          "yaw": -0.60160445543017,
+          "pitch": 0.2305631652683111,
+          "rotation": 0,
+          "target": "4-bao-principal_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-dormitorio-principal",
-      "name": "DORMITORIO PRINCIPAL",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.642863299974289,
-          "pitch": 0.18562133058492414,
-          "rotation": 7.0685834705770345,
-          "target": "1-saln"
-        },
-        {
-          "yaw": 2.8859656096532857,
-          "pitch": 0.38779766063065324,
-          "rotation": 1.5707963267948966,
-          "target": "3-bao-principal_1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-bao-principal_1",
-      "name": "BAÑO PRINCIPAL_1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.559442723498801,
-          "pitch": 0.3030818546324081,
-          "rotation": 0.7853981633974483,
-          "target": "1-saln"
-        },
-        {
-          "yaw": 2.0144035165873584,
-          "pitch": 0.3640405192125158,
-          "rotation": 4.71238898038469,
-          "target": "2-dormitorio-principal"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-despacho",
+      "id": "2-despacho",
       "name": "DESPACHO",
       "levels": [
         {
@@ -206,16 +118,98 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.1774328022801903,
-          "pitch": 0.22028067966908615,
+          "yaw": -0.9839860819199657,
+          "pitch": 0.29400856460244995,
           "rotation": 0.7853981633974483,
           "target": "0-entrada"
         }
       ],
       "infoHotspots": []
+    },
+    {
+      "id": "3-dormitorio-principal",
+      "name": "DORMITORIO PRINCIPAL",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.6666740292400073,
+          "pitch": 0.18361235344652194,
+          "rotation": 1.5707963267948966,
+          "target": "4-bao-principal_1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-bao-principal_1",
+      "name": "BAÑO PRINCIPAL_1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.1245491617312382,
+        "pitch": 0.2784015167380183,
+        "fov": 1.38217411905719
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.0137153581156646,
+          "pitch": 0.2551601049239025,
+          "rotation": 5.497787143782138,
+          "target": "3-dormitorio-principal"
+        },
+        {
+          "yaw": 2.5486545485952252,
+          "pitch": 0.20569928530055037,
+          "rotation": 0.7853981633974483,
+          "target": "1-saln"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
-  "name": "MIALMA-LOFT",
+  "name": "IQevo-LOFT",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
