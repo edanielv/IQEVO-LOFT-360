@@ -30,16 +30,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.03107812294532586,
-          "pitch": 0.22685497499595542,
+          "yaw": 0.02226684267364476,
+          "pitch": 0.20723239583872655,
           "rotation": 0,
           "target": "1-saln"
         },
         {
-          "yaw": 1.7348788738686487,
-          "pitch": 0.3715669422018131,
-          "rotation": 0.7853981633974483,
-          "target": "2-despacho"
+          "yaw": 1.697590740542866,
+          "pitch": 0.3538733011438424,
+          "rotation": 0,
+          "target": "4-despacho"
         }
       ],
       "infoHotspots": []
@@ -74,60 +74,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.8658714681672013,
-          "pitch": 0.2478148902308437,
+          "yaw": -0.6043899715829824,
+          "pitch": 0.19307481016686268,
           "rotation": 0,
-          "target": "0-entrada"
+          "target": "3-bao-principal_1"
         },
         {
-          "yaw": -0.60160445543017,
-          "pitch": 0.2305631652683111,
+          "yaw": 2.846293048386471,
+          "pitch": 0.24409845073135372,
           "rotation": 0,
-          "target": "4-bao-principal_1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-despacho",
-      "name": "DESPACHO",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.9839860819199657,
-          "pitch": 0.29400856460244995,
-          "rotation": 0.7853981633974483,
           "target": "0-entrada"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-dormitorio-principal",
+      "id": "2-dormitorio-principal",
       "name": "DORMITORIO PRINCIPAL",
       "levels": [
         {
@@ -156,16 +118,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.6666740292400073,
-          "pitch": 0.18361235344652194,
+          "yaw": 2.7023808584019324,
+          "pitch": 0.16844686336171932,
           "rotation": 1.5707963267948966,
-          "target": "4-bao-principal_1"
+          "target": "3-bao-principal_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-bao-principal_1",
+      "id": "3-bao-principal_1",
       "name": "BAÑO PRINCIPAL_1",
       "levels": [
         {
@@ -188,28 +150,66 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.1245491617312382,
-        "pitch": 0.2784015167380183,
-        "fov": 1.38217411905719
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.0137153581156646,
-          "pitch": 0.2551601049239025,
+          "yaw": 1.9968346562299173,
+          "pitch": 0.24637936351221157,
           "rotation": 5.497787143782138,
-          "target": "3-dormitorio-principal"
+          "target": "2-dormitorio-principal"
         },
         {
-          "yaw": 2.5486545485952252,
-          "pitch": 0.20569928530055037,
-          "rotation": 0.7853981633974483,
+          "yaw": 2.436365735290285,
+          "pitch": 0.24114234918537747,
+          "rotation": 1.5707963267948966,
           "target": "1-saln"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-despacho",
+      "name": "DESPACHO",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.9934732217633844,
+          "pitch": 0.23507196573665823,
+          "rotation": 0.7853981633974483,
+          "target": "0-entrada"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "IQevo-LOFT",
+  "name": "IQEVO-LOFT",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
